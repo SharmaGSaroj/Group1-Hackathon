@@ -1,0 +1,31 @@
+//global vairable
+//@import "./modules/reset.scss";
+@import "./modules/vars.scss";
+
+
+
+@import "./modules/body.scss";
+@import"./modules/header.scss";
+@import"./modules/hero.scss";
+@import"./modules/about.scss";
+@import "./modules/feature.scss";
+@import"./modules/app.scss";
+@import "./modules/work.scss";
+@import "./modules/video.scss";
+@import "./modules/footer.scss";
+@import"./modules/contact.scss";
+@import"./modules/faqs.scss";
+@import"./modules/gallery.scss";
+@import"./modules/testmonials.scss";
+@import"./modules/company.scss";
+
+
+
+
+//sass for animation
+
+@import "./modules/animation.scss";
+
+//queries
+
+@import "./modules/queries.scss";

@@ -1,0 +1,91 @@
+.footersection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 48px;
+    padding-right: 48px;
+    align-items: center;
+    background-color: $black;
+    
+     
+  }
+  .subscribe-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .subscribe-button{
+    background-color: blue;
+    color: $lightgrey;
+    border: none;
+    
+  }
+  input[type=text]{
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+  }
+  .footer-text{
+    color: $body-text;
+    font-family: $myfont;
+    font-size: $p;
+    
+  }
+  .footernav-bar{
+    display: flex;
+      cursor: pointer;
+  }
+  .footernav-bar  ul li
+  {
+    display:grid;
+    list-style: none;
+  }
+  .footernav-bar  a
+  {
+    color: white;
+    text-decoration: none;
+  }
+  .footernav-bar a:hover
+  {
+    color: blue;
+  }
+  .logo {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+      
+  }
+  .section-name li{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    row-gap: 10px;
+    list-style: none;
+    gap: 20px
+    ;
+  }
+   .second-footer{
+    padding: 20px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+      width: auto;
+      background: rgb(0, 0, 0);
+      justify-content: space-between;
+      color: white;
+      align-items: center;
+   }
+   .end{
+    text-align:left;
+   }
+   .social-icons{
+    text-align: right;
+    
+    i{
+        color: #fff;
+    }
+    .fa{
+        width: 20px;
+    }
+   }
+   

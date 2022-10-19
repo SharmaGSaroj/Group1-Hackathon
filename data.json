@@ -1,0 +1,124 @@
+{
+"//section1": "product data.",
+    "Product1":{
+        "name": "HouseCom™ ThermoSecurity™ System",
+        "type": "Thermostat",
+        "colour": "Black front, white backing",
+        "price": "$399",
+        "desc": " HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and wireless (WiFi, Bluetooth) enabled home personal and secure environment control system. All communications with the central system are accessible and controlled through the wall unit, product app. and the secured portal on the parent website. The HouseCom™ ThermoSecurity™ System App is available on both iOS and Android devices. Whether you wish to adjust the temperature of your home from your Android or iPhone watch or access the home security system on your phone to check in on the house occupancy through the remote, portable cameras. You may wish to look for independent room temperatures, smoke and carbon monoxide status or just open windows and unlocked doors for your return home. All of this functionality and more are part of the capabilities of the HouseCom™ ThermoSecurity™ security and environment system."
+},
+
+
+"//section2": "main features.",
+    "Feature1":{
+        "type": "Save energy automatically",
+        "heading": "Save up to 26%* on heating and cooling costs",
+        "desc": "HouseCom™ ThermoSecurity™ System helps you save up to 26%* on annual heating and cooling costs.",
+        "image":""
+},
+"Feature2":{
+    "type": "Smart home ecosystems",
+    "heading": "Control from anywhere with your iOS or Android device",
+    "desc": "Controllable through many devices, like your Smartphone, Tablet or Apple Watch.",
+    "image":""
+},
+"Feature3":{
+    "type": "Easy from install",
+    "heading": "Comes with everything you need for an easy self-install",
+    "desc": "No batteries needed so you’ll never have to worry about replacing them or losing control.",
+    "image":""
+},
+"Feature4":{
+    "type": "Multi-talented monitoring",
+    "heading": "Works with SmartSensors to ensure occupied rooms stay comfortable",
+    "desc": "Works with SmartSensors to ensure occupied rooms stay comfortable, along with energy savings.",
+    "image":""
+},
+
+
+"//section3": "extra features.",
+"Feature5":{
+    "type": "SmartSensor",
+    "stat": "100% 24/7 monitoring",
+    "heading": "Always know your surrounding",
+    "desc": "Protect your home from intruders with advanced occupancy sensing system",
+    "image":""
+},
+"Feature6":{
+    "type": "Eco Friendly Features",
+    "stat": "90% toxicity removed",
+    "heading": "Experience a new level of comfort and energy savings with eco+",
+    "desc": "Smart Recovery will learn your temperature pattern and begin pre-heating and pre-cooling in advance. ",
+    "image":""
+},
+"Feature7":{
+    "type": "Thermostat sensors",
+    "stat": "100% comfort at home",
+    "heading": "Experience a new level of comfort",
+    "desc": "To avoid the formation of frost on windows, SmartThermostat controls indoor humidity.",
+    "image":""
+},
+"Feature8":{
+    "type": "Energy Statistic Reports",
+    "stat": "20% savings energy cost",
+    "heading": "It’s like an energy audit at no extra cost",
+    "desc": "Obtain a monthly savings report and compare your performance with other homes in the area.. ",
+    "image":""
+},
+"Feature9":{
+    "type": "Smart Security",
+    "stat": "90% of our time are indoor",
+    "heading": "All features require a smart thermostat or SmartCamera",
+    "desc": "Improved occupancy sensing and security are made possible by the wider angles and greater range of radar technology.",
+    "image":""
+},
+
+
+
+
+
+
+
+
+
+
+"//section4": "reviews.",
+"Review1":{
+    "name": "John Bennet",
+    "location": "Ontario, Canada",
+    "desc": "One of the most amazing things is that HouseCom™ ThermoSecurity™ System isn’t attached to one service (Google, Apple, etc) so it’s compatible with them all. ",
+    "image":""
+},
+"Review2":{
+    "name": "Marco Deluca",
+    "location": "Ontario, Canada",
+    "desc": "I have had this product for about three weeks now and it has made a difference having sensors in the bedrooms to keep the temperatures even and the house cool.",
+    "image":""
+},
+"Review3":{
+    "name": "Justin Brunner",
+    "location": "Ontario, Canada",
+    "desc": "We love our HouseCom™ ThermoSecurity™ System, especially during these hot summer days! The programs to save energy and Alexa integration have been helpful. ",
+    "image":""
+},
+"Review4":{
+    "name": "Jarrod Osterback",
+    "location": "Ontario, Canada",
+    "desc": "It works great and I love the vacation scheduler and the different settings and features it has. The smart technology is amazing it is integrated with Amazon Alexa.",
+    "image":""
+},
+"Review5":{
+    "name": "Joe Kormendi",
+    "location": "Ontario, Canada",
+    "desc": "This HouseCom™ ThermoSecurity™ System is very efficient and fully programmable. Since having it for the last 2 months I’ve noticed my energy bill went slightly down! ",
+    "image":""
+},
+"Review6":{
+    "name": "Trevor Van Rys",
+    "location": "Ontario, Canada",
+    "desc": "Having this smart control system in our home has been a game changer. Being able to make changes from my phone while both home and away is also clutch.",
+    "image":""
+}
+
+
+}

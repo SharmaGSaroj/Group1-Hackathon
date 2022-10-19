@@ -1,0 +1,138 @@
+.app-feature{
+    background-image: url(../images/app-feature-bg.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+    height: 1000px;
+    font-family: $myfont;
+    background-size: cover;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.app-header{
+    margin: auto;
+    width: 620px;
+}
+.app-header h3{
+    font-family: $myfont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.015rem;
+    color: #FFFFFF;
+.green{
+    color: $green;
+}
+}
+.menu-options{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+}
+.menu-link{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px 8px 8px;
+gap: 14px;
+width: 400px;
+height: 64px;
+background-color: $black;
+color: white;
+border: none;
+border-radius: 16px;
+cursor: pointer;
+font-family: $myfont;
+font-size: $h6;
+font-weight: medium;
+
+
+    &:hover{
+        background-color: #151515;
+    }
+
+    &:active{
+        background-color: #262626;
+        font-style: semibold;
+        img{
+            background-image: url(../images/menu-dummy-active.svg);
+        }
+    }
+}
+
+.app-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 150px;
+}
+.app-Image img{
+    height: 300px;
+}
+.stat{
+    background-image: url(../images/stats-bg.svg);
+    background-color: #111218;
+    border-radius: 99px;
+
+    h4{
+        font-family: $myfont;
+        font-size: $h4;
+        font-weight: 600;
+        align-items: center;
+        letter-spacing: -0.02rem;
+        color: #dedfe3;
+    }
+    p{
+        font-weight: 500;
+        text-align: center;
+        align-items: center;
+        color: #929292;
+        font-family: $myfont;
+        font-size: $p;
+    }
+}
+
+
+
+.app-cta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 4px;
+    background-color: #262626;
+
+    p{
+        font-family: $myfont;
+        font-size: $p;
+        font-weight: 500;
+        color: #959595;
+        line-height: 21px;
+    }
+
+    .appctabutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 4px;
+        background-color: $black;
+        border-radius: 16px;
+        color: white;
+    }
+
+
+}
+.app-Desc{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap:16px;
+    
+}

@@ -1,0 +1,78 @@
+.faqs{
+    background-color: white;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.faq-header h2{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 600;
+font-size: $h2;
+line-height: 60px;
+/* identical to box height, or 136% */
+
+letter-spacing: -0.015rem;
+
+color: $black;
+align-items: center;
+text-align: center;
+margin-top: -42px;
+.green{
+    color: $green;
+}
+} .faq-header h6{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 700;
+font-size: $h6;
+line-height: 24px;
+/* identical to box height, or 171% */
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+color:$green;
+
+
+}
+
+.faq-body{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 608px;
+height: 480px;
+left: 416px;
+top: 268px;
+margin: auto;
+}
+.faq-content{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 32px;
+
+width: 608px;
+height: 104px;
+border-bottom: 1px solid #E7EAEE;
+justify-content: space-between;
+text-indent: 20px;
+}
+
+.faq-content h5{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 700;
+font-size: $h5;
+line-height: 24px;
+/* identical to box height, or 171% */
+text-align: center;
+letter-spacing: 1.25px;
+text-transform: uppercase;
+color:$black;
+}

@@ -1,0 +1,79 @@
+.feature{
+    background-color: white;
+    padding-left: 175px;
+    padding-right: 175px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.feature-header h2{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 600;
+font-size: $h2;
+line-height: 60px;
+/* identical to box height, or 136% */
+
+letter-spacing: -0.015rem;
+
+color: $black;
+align-items: center;
+text-align: center;
+.green{
+    color: $green;
+}
+
+} 
+.feature-header p{
+font-family: $myfont;
+font-style: normal;
+font-weight: 500;
+font-size: $p;
+line-height: 23px;
+letter-spacing: -0.002em;
+color: $body-text;
+align-items: center;
+text-align: center;
+margin-top: -18px;
+}
+.feature-grid{
+  box-sizing: border-box;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  gap: 24px;
+}
+.feature-content h3{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 500;
+font-size: $h3;
+line-height: 32px;
+letter-spacing: -0.02rem;
+color: $black;
+margin-top: -4px;
+}
+.feature-content h5{
+font-family: $myfont;
+font-style: normal;
+font-weight: 500;
+font-size: $h5;
+line-height: 34px;
+color: $body-text;
+margin-top: -12px;
+
+}
+.feature-card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+padding-top: 32px;
+}
+
+
+
+

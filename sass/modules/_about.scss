@@ -1,0 +1,153 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    height: 703px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+width: 448px;
+height: 440px;
+left: 64px;
+top: 132px;
+}
+
+
+.about-header{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+}
+
+
+
+.about-header h6{
+    font-family: $myfont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $h6;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: $green; 
+    
+}
+.about-heading{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 700;
+font-size: $h2;
+line-height: 60px;
+/* or 136% */
+
+letter-spacing: -0.015rem;
+
+color: $black;
+margin-top: -42px;
+.green{
+    color: $green;
+}
+
+}
+.line{
+    width: 448px;
+height: 0px;
+
+border-top: 1px solid $lightgrey;
+opacity: 50%;
+margin-top: -32px;
+
+}
+
+
+.overview-content{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 24px;
+cursor: pointer;
+}
+.overview-content:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(9, 99, 45, 0.14);
+    border-radius: 8px;
+    padding: 0 12px 12px ;
+}
+
+.about-overview{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+}
+.overview-text h5{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 700;
+font-size: $h5;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.015rem;
+
+color:$black;
+}
+
+.overview-text p{
+    font-family: $myfont;
+font-style: normal;
+font-weight: 400;
+font-size: $p;
+line-height: 24px;
+
+
+letter-spacing: -0.09px;
+color: $body-text;
+margin-top: -18px;
+}
+
+
+.overview-img{
+    
+    border-radius: 4px;
+    background-repeat: no-repeat, repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+    background:$lightgreen;
+
+    
+}
+.overview-img img{
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+.about-Image{
+    width: 635px;
+    height: 480px;
+    left: 742px;
+    top: 120px;
+    border-radius: 16px;
+}
+
+
