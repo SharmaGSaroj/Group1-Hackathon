@@ -46,7 +46,7 @@ function showData(event) {
         Heading.textContent = app[this.dataset.key].type;
         containers[2].textContent = app[this.dataset.key].stat;
         containers[3].textContent = app[this.dataset.key].desc;
-        containers[4].textContent = app[this.dataste.key].heading;
+        containers[4].textContent = app[this.dataset.key].heading;
     }
     else {
         panel.classList.add("hidden");
