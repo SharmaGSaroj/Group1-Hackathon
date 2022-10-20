@@ -6,6 +6,7 @@
     padding-bottom: 100px;
     align-items: center;
     justify-content: center;
+    
 }
 .feature-header h2{
     font-family: $myfont;
@@ -69,6 +70,7 @@ margin-top: -12px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
+flex-wrap: nowrap;
 padding: 0px;
 gap: 40px;
 padding-top: 32px;
@@ -76,4 +78,25 @@ padding-top: 32px;
 
 
 
-
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .feature-header p{
+        font-family: $myfont;
+        font-style: normal;
+        font-weight: 500;
+        font-size: $p;
+        line-height: 23px;
+        letter-spacing: -0.002em;
+        color: $body-text;
+        align-items:flex-start;
+        text-align: center;
+        
+        }
+        .feature-grid{
+          box-sizing: border-box;
+          border: none;
+          display: grid;
+        grid-template-rows: auto;
+          align-items: center;
+          gap: 24px;
+        }
+}
