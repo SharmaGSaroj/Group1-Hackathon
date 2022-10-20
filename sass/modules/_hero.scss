@@ -3,7 +3,6 @@
     background-image: url(../images/heroimage.png);
     background-repeat: no-repeat, repeat;
     background-position: center center;
-    
     z-index: 10;
     font-family: $myfont;
     background-size: cover;
@@ -96,14 +95,61 @@ gap: 14px;
     @media screen and (max-width: 480px) {
     .herosection
     {
-        height: auto;
-        background-image: url(../images/mobile-modern-interior.png);
-        z-index: 10;
+        
+        background-image: url(../images/mobile-responsive.svg);
+        
     font-family: $myfont;
 
     }
+    .hero-heading h1{
+        font-family: $myfont;
+        font-weight: 600;
+        font-size: $h5;
+        line-height: 60px;
+        margin-top: -22px;
+        letter-spacing: -0.03em;
+        color: $black;
+        }
+        .hero-content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 48px;
+            margin-top: 96px;
+            position: absolute;
+            width: 470px;
+            height: 420px;
+            left: 68px;
+            top: 97px;
+        }
    }
   
     @media screen and (max-width: 780px) {
-  
+        .herosection
+    {
+    font-family: $myfont;
+
+    }
+    .hero-heading h1{
+        font-family: $myfont;
+        font-weight: 400;
+        font-size: $h3;
+        line-height: 60px;
+        margin-top: -22px;
+        letter-spacing: -0.03em;
+        color: $black;
+        }
+        .hero-review{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 14px;
+        
+        }
+        .hero-review p{
+            color: white;
+        }
     }
